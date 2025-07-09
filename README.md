@@ -4,7 +4,6 @@ This project explores how different machine learning models can help detect cred
 
 I experimented with both unsupervised and supervised techniques to spot fraudulent transactions based on transformed features and a binary target variable (0 = non-fraudulent, 1 = fraudulent).
 
----
 
 ## Explore Approaches
 
@@ -18,7 +17,6 @@ I experimented with both unsupervised and supervised techniques to spot fraudule
 - **Random Forest**: tested on original features, features combined with anomaly scores, and autoencoder embeddings.
 - **Multilayer Perceptron (MLP)**: the trained neural network has a simple architecture.
 
----
 
 ## Results
 
@@ -27,14 +25,12 @@ I experimented with both unsupervised and supervised techniques to spot fraudule
 
 Autoencoder had quite quite impressive performance, given that it does not require labels. This is efficient in real-life cases as well, when labeled data is absent. When labels are available, supervised learning models are far more effective at catching fraud.
 
----
 
 ## Visual Results
 
 ![Autoencoder ROC curve](visuals/ae_roc_curve.png)
 ![MLP ROC curve](visuals/mlp_roc_curve.png)
 
----
 
 ## Future Work
 
